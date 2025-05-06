@@ -32,7 +32,7 @@ class Bandit:
 
             rewards[step] = reward
 
-        return reward
+        return rewards
 
 if __name__ == "__main__":
     k = 10
